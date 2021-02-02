@@ -1,0 +1,123 @@
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    >
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <TextView
+    android:textColor="#262626"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Cooker control"
+    android:textAlignment="center"/>
+
+     <View
+     android:id="@+id/SplitLine_hor1"
+     android:layout_width="match_parent"
+     android:layout_height= "10dp"
+     android:background="#f7f7f7" />
+    <View
+      android:layout_width="match_parent"
+      android:layout_height= "1dp"
+      android:background="#d2d2d2" />
+    <TextView
+    android:textColor="#262626"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Cooker system is designed to impliment emmbedded cooking  system that cook efficiently and make notification when food ready,this app will enables you to do other work while cooking, The efficient way for people multitasking aproach. This application uses Bluetooth technology in communication."
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="5dp"/>
+   <View
+    android:layout_width="match_parent"
+    android:layout_height= "1dp"
+    android:background="#d2d2d2" />
+   <TextView
+   android:textColor="#262626"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:text="Developers :"
+   android:paddingLeft="11dp"
+   android:paddingTop="8dp"
+   android:paddingBottom="5dp"/>
+   <TextView
+    android:textColor="#262626"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="NIYIGENA Clarisse"
+    android:paddingTop="2dp"
+    android:paddingLeft="20dp"
+    android:paddingBottom="2dp"/>
+    <TextView
+    android:textColor="#262626"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="REGISTRATION Number : \n  217035957"
+    android:paddingTop="2dp"
+    android:paddingLeft="20dp"
+    android:paddingBottom="2dp"/>
+    <TextView
+    android:textColor="#262626"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:paddingTop="2dp"
+    android:paddingLeft="20dp"
+    android:paddingBottom="7dp"/>
+    <View
+    android:layout_width="match_parent"
+    android:layout_height= "1dp"
+    android:background="#d2d2d2"
+    />
+            <TextView
+                android:textColor="#262626"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UMURERWA Alice"
+                android:paddingTop="2dp"
+                android:paddingLeft="20dp"
+                android:paddingBottom="2dp"/>
+            <TextView
+                android:textColor="#262626"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="REGISTRATION Number : \n 217159680"
+                android:paddingTop="2dp"
+                android:paddingLeft="20dp"
+                android:paddingBottom="2dp"/>
+            <TextView
+                android:textColor="#262626"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:paddingTop="2dp"
+                android:paddingLeft="20dp"
+                android:paddingBottom="7dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height= "1dp"
+                android:background="#d2d2d2"
+                />
+    <TextView
+    android:textColor="#488af1"
+    android:paddingTop="7dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="12dp"
+    android:text=" For more information visit www.cookteck.com" />
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

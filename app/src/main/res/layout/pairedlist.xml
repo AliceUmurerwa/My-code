@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="3dp"
+    >
+    <TextView
+        android:paddingTop="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/paired_devices"
+        android:id="@+id/k"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:background="#028181"
+        android:layout_alignEnd="@+id/pairedlist" />
+    <View
+        android:id="@+id/Start"
+        android:layout_width="match_parent"
+        android:layout_height= "10dp"
+        android:background="#f7f7f7"
+        android:layout_above="@+id/pairedlist"
+        android:layout_alignParentStart="true" />
+
+    <ListView
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pairedlist"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/k"
+        android:divider="#b5b5f5"
+        android:dividerHeight="1dp"
+        android:listSelector="@drawable/list_selector"/>
+
+    <View
+        android:id="@+id/End"
+        android:layout_width="match_parent"
+        android:layout_height= "10dp"
+        android:background="#f7f7f7"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

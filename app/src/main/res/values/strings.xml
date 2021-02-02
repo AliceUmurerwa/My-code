@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Cooker</string>
+
+    <string name="opendrawer">open</string>
+    <string name="closedrawer">close</string>
+    <string name="cooktech">cooktech</string>
+    <string name="img">img</string>
+    <string name="paired_devices">Paired Devices :</string>
+    <string name="menuimag">menuImag</string>
+    <string-array name="navlinks">
+        <item>Home</item>
+        <item>Rice</item>
+        <item>Potato</item>
+        <item>Meat</item>
+        <item>Tea</item>
+        <item>Custom</item>
+    </string-array>
+</resources>

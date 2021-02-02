@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+            <TextView
+                android:paddingBottom="10dp"
+                android:paddingTop="20dp"
+                android:textColor="#262626"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Remaining cook time : "
+                android:textAlignment="center"/>
+
+
+            <TextView
+                android:paddingTop="10dp"
+                android:paddingBottom="20dp"
+                android:id="@+id/time"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/edittext"
+                android:textAlignment="center"
+                />
+
+            <View
+                android:layout_marginTop="25dp"
+                android:paddingTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height= "1dp"
+                android:background="#d2d2d2" />
+
+            <TextView
+                android:paddingBottom="10dp"
+                android:paddingTop="20dp"
+                android:textColor="#262626"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Curent temperature : "
+                android:textAlignment="center"/>
+
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/edittext"
+                android:textAlignment="center"
+                android:paddingBottom="30dp"
+                android:id="@+id/temp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height= "1dp"
+                android:background="#d2d2d2"
+                android:layout_marginTop="25dp"
+                />
+            <Button
+                android:paddingTop="7dp"
+                android:paddingBottom="7dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Stop"
+                android:textColor="#ffffff"
+                android:background="#028181"
+                android:id="@+id/stop"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+

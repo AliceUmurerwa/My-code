@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+            <ImageView
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/food"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true" />
+            <TextView
+                android:textColor="#262626"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Set quantity in kg : "
+                android:textAlignment="center"/>
+
+            <View
+                android:id="@+id/SplitLine_hor1"
+                android:layout_width="match_parent"
+                android:layout_height= "10dp"
+                android:background="#f7f7f7" />
+            <EditText
+                android:id="@+id/mass"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:inputType="numberDecimal"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittext"
+                android:textAlignment="center"
+                android:hint=" Enter quantity in KG"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height= "1dp"
+                android:background="#d2d2d2" />
+
+            <TextView
+                android:textColor="#262626"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:paddingTop="2dp"
+                android:paddingLeft="20dp"
+                android:paddingBottom="7dp"
+                android:id="@+id/instr"/>
+             <View
+                android:layout_width="match_parent"
+                android:layout_height= "1dp"
+                android:background="#d2d2d2"
+                />
+            <Button
+                android:paddingTop="7dp"
+                android:paddingBottom="7dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Next"
+                android:textColor="#ffffff"
+                android:background="#028181"
+                android:id="@+id/next"
+                />
+            <View
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height= "1dp"
+                android:background="#d2d2d2"
+                />
+            <TextView
+                android:textColor="#028181"
+                android:paddingTop="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="12dp"
+                android:textAlignment="center"
+                android:text=" For more information visit www.cookteck.com" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+
